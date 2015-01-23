@@ -386,7 +386,7 @@ public class IMLoginManager extends IMManager {
 			msgServerThread.close();
 			msgServerThread = null;
 		}
-		
+		//TODO:开启msg监听
 		msgServerThread = new SocketThread(ip, msgServerPort,
 				new MsgServerHandler());
 		msgServerThread.start();

@@ -23,9 +23,9 @@ public interface SysConstant {
 	
 	int SEX_FEMALE = 0;
 	int SEX_MAILE = 1;				
-	String AVATAR_URL_PREFIX = "http://122.225.68.125:8600/";
-	String DOWNLOAD_IMAGE_URL_REPFIX = "http://122.225.68.125:8600/";
-	String UPLOAD_IMAGE_URL_PREFIX = "http://122.225.68.125:8600/";
+	String AVATAR_URL_PREFIX = "http://192.168.243.162:8600/";
+	String DOWNLOAD_IMAGE_URL_REPFIX = "http://192.168.243.162:8600/";
+	String UPLOAD_IMAGE_URL_PREFIX = "http://192.168.243.162:8600/";
 	
 	public static final int PROTOCOL_HEADER_LENGTH = 12;// 默认消息头的长度
 	public static final int PROTOCOL_VERSION = 1;

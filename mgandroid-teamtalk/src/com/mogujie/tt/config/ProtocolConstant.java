@@ -222,10 +222,10 @@ public class ProtocolConstant {
 	public static final int SID_MAX = 0x0010;
 
 	// LOGIN IP,PORT
-	public static final String LOGIN_IP1 = "122.225.68.125";
-	public static final String LOGIN_IP2 = "101.68.218.125";	
+	public static final String LOGIN_IP1 = "192.168.243.162";
+	public static final String LOGIN_IP2 = "192.168.243.162";	
 	//open source
-	public static final int LOGIN_PORT = 18008;
+	public static final int LOGIN_PORT = 8100;
 
 	// COMMAND_ID FOR LOGIN
 	public static final int CID_LOGIN_REQ_MSGSERVER = 1;
